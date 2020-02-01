@@ -1,0 +1,1 @@
+{deleteVehicle _x} forEach crew (dropship) + [dropship];
