@@ -1,4 +1,5 @@
 
+// create dropships
 dropship = createVehicle ["I_E_Heli_light_03_unarmed_F", getMarkerPos "airborne", [], 0, "FLY"];
 dropship setDir (180);
 pilotguy = [[0,0,0], resistance, ["I_E_Helipilot_F"],[],[],[],[],[],232] call BIS_fnc_spawnGroup;
